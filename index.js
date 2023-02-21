@@ -19,6 +19,6 @@ app.use(express.json());
 
 app.use(express.static('public'))
 
-app.use('/products', productsRoutes)
+app.use('/', productsRoutes)
 
 app.listen(3000)
